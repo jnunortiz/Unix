@@ -4,4 +4,4 @@ readme.txt:
 	echo "</br>" >> README.md
 	date >> README.md
 	echo "</br>" >> README.md
-	wc -l scripts/guessinggame.sh | sed s'/[^0-9]//g' >> README.md
+	wc -l guessinggame.sh | sed s'/[^0-9]//g' >> README.md
